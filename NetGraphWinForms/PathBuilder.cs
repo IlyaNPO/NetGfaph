@@ -40,8 +40,8 @@ namespace NetGraphWinForms
             //Algorithm = new AlgorithmDeikstry();
             Algorithm.InitialMatrixes();
             int[] P = Algorithm.GetMinPathesVector(pathFrom);
-            if(Algorithm is AlgorithmFloydaWorshala)
-                return;
+            //if(Algorithm is AlgorithmFloydaWorshala)
+            //    return;
             this.path = PathBuilder.GetPathMatrix(P, pathFrom);
             this.IsActualData = true;
         }
