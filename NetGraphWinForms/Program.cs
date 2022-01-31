@@ -8,7 +8,7 @@ namespace NetGraphWinForms
     static class Program
     {
         /// <summary>
-        /// Главная точка входа для приложения. Edited from master-branch user 1
+        /// Главная точка входа для приложения. Changes from user2
         /// </summary>
         [STAThread]
         static void Main()
