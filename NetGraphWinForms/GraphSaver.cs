@@ -74,6 +74,7 @@ namespace NetGraphWinForms
 
         public static void LoadGraph(XmlDocument xmlDoc)
         {
+            // Comment from user 2
             NetGraph graph = NetGraph.GetGraph();
             graph.Clear();
 
