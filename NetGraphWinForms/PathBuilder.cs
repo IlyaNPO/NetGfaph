@@ -81,46 +81,6 @@ namespace NetGraphWinForms
         }
 
 
-        //public static int[][] GetPathMatrix_old(int[] p, int s)
-        //{
-        //    int N = p.Length;
-        //    int[][] path = new int[N][];
-        //    for (int init_i = 0; init_i < N; init_i++)
-        //    {
-        //        path[init_i] = new int[N];
-        //        for (int init_j = 0; init_j < N; init_j++)
-        //            path[init_i][init_j] = -1;
-        //    }
-
-        //    int k = 0;
-        //    for (int n = 0; n < N; n++)
-        //    {
-        //        if (n != s)
-        //        {
-        //            k = n;
-        //            int repCount = 0;
-        //        repeat:
-        //            HelpClassel.MoveVector(ref path[n], 1);
-        //            path[n][1] = p[k];
-        //            k = p[k];
-
-        //            if (p[k] != s)
-        //            {
-        //                if (p[k] == 0)
-        //                    ; //throw new Exception("Ошибка алгоритма определения путей!");
-        //                else
-        //                {
-        //                    repCount++;
-        //                    if (repCount >= 50)
-        //                        break;
-        //                    goto repeat;
-        //                }
-        //            }
-        //        }
-        //    }
-        //    return path;
-        //}
-
         public void DisplayPathTo(int pathTo)
         {
             HidePath();
