@@ -6,6 +6,7 @@ using System.Drawing;
 
 namespace NetGraphWinForms
 {
+    // comment from user1
     public class NetGraph : IInfoDisplayable
     {
         private static NetGraph netraph = null;
